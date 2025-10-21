@@ -3,89 +3,99 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Profile Card | Frontend Wizards</title>
-    <link rel="stylesheet" href="style.css" />
+  <title>Profile Card | Frontend Wizards</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-   <article data-testid="test-profile-card" class="profile-card">
-      <figure class="avatar-section">
-        <img
-          src="/BEN.jpg"
-          alt="User Avatar"
-          data-testid="test-user-avatar"
-        />
-      </figure>
+  <article data-testid="test-profile-card" class="profile-card">
+  
 
-      <div class="info-section">
-        <header>
-          <h2 data-testid="test-user-name">Oluwasegun Benjamin Tobi</h2>
-        </header>
+  <!-- ✅ Your Profile Card -->
+    <figure class="avatar-section">
+      <img
+        src="/BEN.jpg"
+        alt="User Avatar"
+        data-testid="test-user-avatar"
+      />
+    </figure>
 
-        <p data-testid="test-user-bio">
-          A passionate Frontend Developer and Designer who loves crafting
-          interactive web experiences and learning new technologies.
-        </p>
+    <div class="info-section">
+      <header>
+        <h2 data-testid="test-user-name">Oluwasegun Benjamin Tobi</h2>
+      </header>
+<!-- ✅ Added Navigation Bar -->
+  <nav class="main-nav" aria-label="Main Navigation">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Me</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+      <p data-testid="test-user-bio">
+        A passionate Frontend Developer and Designer who loves crafting
+        interactive web experiences and learning new technologies.
+      </p>
 
-        <p>
-          Current Time (ms):
-          <span data-testid="test-user-time" id="user-time"></span>
-        </p>
+      <p>
+        Current Time (ms):
+        <span data-testid="test-user-time" id="user-time"></span>
+      </p>
 
-        <nav aria-label="Social Links" data-testid="test-user-social-links">
-          <ul>
-            <li>
-              <a
-                href="https://x.com/Bensaxxy11"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-testid="test-user-social-twitter"
-              >
-                X
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/Bensaxxy"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-testid="test-user-social-github"
-              >
-                GitHub
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/oluwasegun-benjamin-a80b76252/"
-                target="_blank"
-                rel="noopener noreferrer"
-                data-testid="test-user-social-linkedin"
-              >
-                LinkedIn
-              </a>
-            </li>
-          </ul>
-        </nav>
+      <nav aria-label="Social Links" data-testid="test-user-social-links">
+        <ul>
+          <li>
+            <a
+              href="https://x.com/Bensaxxy11"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-twitter"
+            >
+              X
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/Bensaxxy"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-github"
+            >
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.linkedin.com/in/oluwasegun-benjamin-a80b76252/"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-testid="test-user-social-linkedin"
+            >
+              LinkedIn
+            </a>
+          </li>
+        </ul>
+      </nav>
 
-        <section>
-          <h3>Hobbies</h3>
-          <ul data-testid="test-user-hobbies">
-            <li>Coding</li>
-            <li>Reading</li>
-            <li>Playing Chess</li>
-          </ul>
-        </section>
+      <section>
+        <h3>Hobbies</h3>
+        <ul data-testid="test-user-hobbies">
+          <li>Coding</li>
+          <li>Reading</li>
+          <li>Playing Chess</li>
+        </ul>
+      </section>
 
-        <section>
-          <h3>Dislikes</h3>
-          <ul data-testid="test-user-dislikes">
-            <li>Procrastination</li>
-            <li>Slow Internet</li>
-            <li>Messy Code</li>
-          </ul>
-        </section>
-      </div>
-    </article>
+      <section>
+        <h3>Dislikes</h3>
+        <ul data-testid="test-user-dislikes">
+          <li>Procrastination</li>
+          <li>Slow Internet</li>
+          <li>Messy Code</li>
+        </ul>
+      </section>
+    </div>
+  </article>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
